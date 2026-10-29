@@ -1,0 +1,6 @@
+# Local-only files
+PROGRESS.md
+.claude/
+.DS_Store
+*.env.local
+.env*
