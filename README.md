@@ -18,13 +18,25 @@ Composio already publishes ~47 credential-setup guides. They explain *how to cre
 
 **Who it's for:** a busy, technical developer who usually arrives with a specific app in mind, and needs a plan they can trust and share with their team.
 
-## The idea
+## The idea: a trusted itinerary for your OAuth trip
 
-> **Search like a store, think like a visa checker, read like a recipe.**
+Think of a traveller heading somewhere new. They search for the destination and get a **ready-made itinerary**: what to do first, what documents they need, how long things take, what to avoid. Every recommendation is backed by a source they can check, so they can **trust it**. Preflight does the same for a developer whose "destination" is a provider's app approval.
 
-- **Store:** one search box, a grid of app cards, filters (difficulty, time to launch, approval type, cost, Composio-managed).
-- **Visa checker:** *Do you even need one? What documents do you need? How long is processing? Common rejection reasons? Apply early.* The same app can be a 10-minute job or a six-week one depending on what you ask for, just as visa rules depend on why you travel.
-- **Recipe:** an at-a-glance strip (difficulty, your effort, waiting on the provider, cost, steps your agent can do), "ingredients" (requirements), then numbered steps.
+| For the traveller | In Preflight |
+|---|---|
+| Search a destination | Search an app (Gmail, Slack, Shopify…) |
+| A ready-made itinerary | A guide with numbered steps from creating the app to going live |
+| "Do I even need a visa?" | **Do you even need your own app?** Composio may already have an approved one |
+| Visa rules depend on why you're travelling | Difficulty depends on **what you need**: Gmail sign-in is easy, reading email is hard |
+| Documents to prepare | **Before you start**: privacy policy, verified domain, demo video, business documents |
+| Travel time vs waiting at the border | **Your effort** vs **waiting on the provider**, shown separately ("start the approval now, while you build") |
+| Local tips: what to avoid and what to do if something goes wrong | **Common blockers and fixes**, and a message for your customer's admin when approval sits with them |
+| A tour guide who can handle parts of the trip | **Agent vs you** on every step, plus a ready-to-paste prompt for your coding agent |
+| Recommendations backed by verified reviews | Every claim labelled **tested**, **sourced** or **uncertain**, with numbered links |
+| A destination not in the guidebook | A local expert researches it **live** and writes a new itinerary in the same format |
+| Share the itinerary with your travel companions | **Share** link (keeps your use case) or **Copy as Markdown** |
+
+How that shows up in the design: you *search like a store* (one search box, cards, filters), *think like a visa checker* (do you need one, what documents, how long, common rejections), and *read like a recipe* (an at-a-glance strip, then ingredients, then steps).
 
 ## What's in it
 
